@@ -6,7 +6,7 @@ import Login from './Screens/Login';
 
 export type RootStackParamList = {
   Login: undefined;
-  Details: undefined;
+  Details?: {id: number};
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
